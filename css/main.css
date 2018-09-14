@@ -17,6 +17,16 @@
 	outline: none !important;
 }
 
+.hidden{
+  display: none;
+}
+
+.right-navigation{
+  position: absolute;
+  right: 1%;
+
+}
+
 img{
 	width: 100%;
 	height: auto;

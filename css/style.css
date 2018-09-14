@@ -32,7 +32,8 @@ TABLE OF CONTENTS
   src: url("../fonts/vermin_vibes.ttf") format("opentype");
 }
 body {
-  font-family: 'Muli', sans-serif;
+  /* font-family: 'Muli', sans-serif; */
+  font-family: 'Open Sans', sans-serif;
   color: #343434;
   font-weight: 400;
 }
@@ -41,9 +42,10 @@ body {
   padding: 100px 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+/* h1, h2, h3, h4, h5, h6 {
   font-family: 'Josefin Sans', sans-serif;
-}
+  font-family: 'Dosis', sans-serif;
+} */
 
 p {
   line-height: 1.8;
@@ -133,6 +135,9 @@ p {
   opacity: 1;
   -webkit-animation: blink 1s infinite;
   animation: blink 1s infinite;
+  position: relative;
+  top: 0.7em;
+  left: 0.2em;
 }
 
 @keyframes blink {
@@ -161,7 +166,7 @@ p {
                      Navbar 
 -------------------------------------------------------- */
 .navbar-default {
-  padding: 20px 0 30px;
+  padding: 0px 0 30px;
   background: none;
   border: none;
   border-radius: 0;
@@ -173,11 +178,12 @@ p {
 }
 .navbar-default .navbar-nav > li > a {
   margin: 0 !important;
-  color: #eee !important;
+  color: white !important;
   padding: 0 !important;
 }
 .navbar-default .navbar-nav > li {
-  font-size: 14px;
+  font-size: 1rem;
+  letter-spacing: 0.5rem;
   margin: 25px 20px 0;
   padding: 5 10px;
   background: none;
@@ -190,7 +196,7 @@ p {
 }
 
 .nav-scroll {
-  background: #fff;
+  background: black;
   border-bottom: 1px solid rgba(12, 12, 12, 0.04);
   min-height: 60px;
   line-height: 60px;
@@ -207,7 +213,7 @@ p {
   padding-top: 5px;
 }
 .nav-scroll .navbar-nav > li > a {
-  color: #111 !important;
+  color: white !important;
 }
 
 .logo {
@@ -238,7 +244,7 @@ p {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.55);
+  background: rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 .header .v-middle {
@@ -250,14 +256,30 @@ p {
   color: #fff;
 }
 .header .caption h4 {
+  color: rgba(255, 255, 255, 0.5);
+  letter-spacing: .3rem;
   margin-bottom: 30px;
-  color: #d6b161;
+  /* color: #eac683; */
 }
 .header .caption h1 {
   margin-bottom: 30px;
   font-weight: 600;
-  letter-spacing: 1px;
+  letter-spacing: 3rem;
   text-transform: uppercase;
+  position: relative;
+  top: 0.3em;
+  font-family: 'Dosis', sans-serif;
+  font-size: 8rem;
+}
+.header .caption h6 {
+  margin-bottom: 30px;
+  /* font-weight: 600; */
+  letter-spacing: 0.5rem;
+  text-transform: uppercase;
+  position: relative;
+  top: 3em;
+  /* left: 0.1em; */
+  font-family: 'Open Sans', sans-serif;
 }
 .header .caption .type span {
   color: #d6b161;
@@ -270,6 +292,9 @@ p {
   margin-right: 20px;
   font-weight: 300;
   text-transform: uppercase;
+  position: relative;
+  top: 0.5em;
+  left: 0.2em;
 }
 
 .creative {
@@ -584,7 +609,7 @@ p {
   margin-bottom: 15px;
 }
 .clients .client-item p {
-  color: #eee;
+  color: white;
   font-style: italic;
   margin-bottom: 15px;
 }
@@ -600,7 +625,7 @@ p {
 }
 .clients .owl-theme .owl-dots .owl-dot span {
   background: transparent;
-  border: 1px solid #eee;
+  border: 1px solid white;
 }
 .clients .owl-theme .owl-dots .owl-dot.active span,
 .clients .owl-theme .owl-dots .owl-dot:hover span {
@@ -714,7 +739,7 @@ p {
 }
 .portfolio .load {
   margin: 30px auto 0;
-  border: 1px solid #eee;
+  border: 1px solid white;
   padding: 12px 30px;
   color: #555;
   -webkit-transition: all .5s;
@@ -753,7 +778,8 @@ p {
   color: #fff;
 }
 .hire .content h2 {
-  font-family: "Muli", sans-serif;
+  /* font-family: "Muli", sans-serif; */
+  font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   margin-bottom: 15px;
   letter-spacing: 1px;
@@ -828,7 +854,7 @@ p {
 .posts .item {
   margin-bottom: 80px;
   padding-bottom: 80px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid white;
 }
 .posts .item .content .post-img {
   margin-bottom: 50px;
@@ -917,7 +943,7 @@ p {
 }
 .posts .comm {
   padding-bottom: 30px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid white;
 }
 .posts .comm .comm-item {
   margin-bottom: 50px;
@@ -928,7 +954,7 @@ p {
   border-radius: 50%;
   overflow: hidden;
   float: left;
-  background: #eee;
+  background: white;
 }
 .posts .comm .comm-item .comnts {
   margin-left: 70px;
@@ -977,7 +1003,7 @@ p {
 }
 .posts .numb span {
   padding: 10px 16px;
-  border: 1px solid #eee;
+  border: 1px solid white;
   font-size: 12px;
   color: #888;
   letter-spacing: 1px;
@@ -1008,7 +1034,7 @@ p {
   width: 100%;
   padding: 9px;
   font-size: 14px;
-  border: 1px solid #eee;
+  border: 1px solid white;
 }
 .side-bar .widget .search ::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
@@ -1044,7 +1070,7 @@ p {
   height: 40px;
   line-height: 40px;
   text-align: center;
-  border: 1px solid #eee;
+  border: 1px solid white;
   border-radius: 50%;
   font-size: 14px;
   color: #777;
@@ -1115,7 +1141,7 @@ p {
 .side-tit {
   padding-bottom: 20px;
   margin-bottom: 50px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid white;
 }
 .side-tit h6 {
   font-size: 14px;
@@ -1140,7 +1166,7 @@ p {
                      Contact 
 -------------------------------------------------------- */
 .contact {
-  background-image: url(../img/4.jpg);
+  background-image: url(../img/sydney.jpg);
   background-size: cover;
   background-attachment: fixed;
   position: relative;
@@ -1154,7 +1180,7 @@ p {
   bottom: 0;
   right: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.5);
   z-index: 1;
 }
 .contact .container {
@@ -1162,20 +1188,20 @@ p {
   z-index: 9;
 }
 .contact .head-left {
-  padding-top: 50px;
+  /* padding-top: 50px; */
   color: #f4f4f4;
 }
 .contact .form {
-  padding-top: 50px;
+  /* padding-top: 50px; */
 }
 .contact .form input, .contact .form textarea {
   width: 100%;
   padding: 10px;
   margin-bottom: 30px;
   border: 0;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid white;
   background: transparent;
-  color: #eee;
+  color: white;
 }
 .contact .form input[type="submit"] {
   border: 1px solid #d6b161;
@@ -1193,8 +1219,8 @@ p {
 .contact .info {
   text-align: center;
   color: #fff;
-  border: 1px solid #eee;
-  padding: 50px 0;
+  border: 1px solid white;
+  padding: 60px 0;
 }
 .contact .info .item {
   margin-bottom: 50px;
@@ -1205,7 +1231,8 @@ p {
   color: #d6b161;
 }
 .contact .info .item h6 {
-  font-family: "Muli", sans-serif;
+  /* font-family: "Muli", sans-serif; */
+  font-family: 'Open Sans', sans-serif;
   font-size: 15px;
   font-weight: 700;
 }
@@ -1213,7 +1240,7 @@ p {
   margin-top: 10px;
   line-height: 1.5;
   font-weight: 300;
-  color: #eee;
+  color: white;
 }
 .contact .info .social-icon span {
   margin: 0 15px;
@@ -1223,7 +1250,7 @@ p {
 }
 .contact .copy {
   margin-top: 80px;
-  color: #a3a3a3;
+  color: white;
   font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -1249,9 +1276,11 @@ p {
   }
   .navbar-default .navbar-nav li a {
     color: #111 !important;
+    font-family: 'Open Sans', sans-serif;
   }
   .navbar-default .navbar-nav > li > a {
     padding-bottom: 0 !important;
+    font-family: 'Open Sans', sans-serif;
   }
   .navbar-default .navbar-collapse {
     text-align: center;
@@ -1259,6 +1288,7 @@ p {
     border-top: 1px solid rgba(12, 12, 12, 0.04);
     background: #fff;
     margin-top: 5px;
+    font-family: 'Open Sans', sans-serif;
   }
 
   .nav-scroll .navbar-toggle .icon-bar {

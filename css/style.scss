@@ -27,7 +27,8 @@ TABLE OF CONTENTS
                      Global 
 -------------------------------------------------------- */
 
-$main-color: #d6b161;
+// $main-color: #d6b161;
+$main-color: white;
 $tablet: 767px;
 $desk: 991px;
 
@@ -233,7 +234,9 @@ p{
 	float: left;
 	padding-top: 15px;
 	font-family: "vermin vibes", sans-serif;
+
 }
+
 
 /* -------------------------------------------------------
                      Header 
@@ -275,7 +278,7 @@ p{
 		h1{
 			margin-bottom: 30px;
 			font-weight: 600;
-			letter-spacing: 1px;
+			letter-spacing: 10px;
 			text-transform: uppercase;
 		}
 
@@ -1324,7 +1327,7 @@ p{
 -------------------------------------------------------- */
 
 .contact{
-	background-image: url(../img/4.jpg);
+	background-image: url(../img/sydney.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	position: relative;
@@ -1348,7 +1351,7 @@ p{
 	}
 
 	.head-left{
-		padding-top: 50px;
+		// padding-top: 50px;
 		color: #f4f4f4;
 	}
 
@@ -1423,7 +1426,7 @@ p{
 
 	.copy{
 		margin-top: 80px;
-		color: #a3a3a3;
+		color: white;
 		font-size: 11px;
 		text-transform: uppercase;
 		letter-spacing: 1px;

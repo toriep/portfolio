@@ -67,7 +67,7 @@ $(function() {
 
     // typejs
     $('.header .caption h3').typed({
-        strings: ["Web Developer", "UI/UX  Designer", "Photography"],
+        strings: ["Front End", "Web Developer"],
         loop: true,
         startDelay: 1000,
         backDelay: 1000,
