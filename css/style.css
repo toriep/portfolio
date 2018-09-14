@@ -136,7 +136,7 @@ p {
   -webkit-animation: blink 1s infinite;
   animation: blink 1s infinite;
   position: relative;
-  top: 0.7em;
+  top: 0.45em;
   left: 0.2em;
 }
 
@@ -196,7 +196,7 @@ p {
 }
 
 .nav-scroll {
-  background: black;
+  background: white;
   border-bottom: 1px solid rgba(12, 12, 12, 0.04);
   min-height: 60px;
   line-height: 60px;
@@ -213,7 +213,7 @@ p {
   padding-top: 5px;
 }
 .nav-scroll .navbar-nav > li > a {
-  color: white !important;
+  color: black !important;
 }
 
 .logo {
@@ -233,7 +233,7 @@ p {
   height: 100vh;
   width: 100%;
   position: relative;
-  background-image: url(../img/bg.jpg);
+  background-image: url(../img/geometric.jpg);
   background-attachment: fixed;
   background-size: cover;
 }
@@ -268,7 +268,8 @@ p {
   text-transform: uppercase;
   position: relative;
   top: 0.3em;
-  font-family: 'Dosis', sans-serif;
+  /* font-family: 'Dosis', sans-serif; */
+  font-family: 'Raleway', sans-serif;
   font-size: 8rem;
 }
 .header .caption h6 {
@@ -755,7 +756,8 @@ p {
                      Hire 
 -------------------------------------------------------- */
 .hire {
-  background-image: url(../img/3.jpg);
+  /* background-image: url(../img/sydney.jpg); */
+  background-color: black;
   background-attachment: fixed;
   background-size: cover;
   position: relative;
@@ -767,7 +769,7 @@ p {
   bottom: 0;
   right: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.3);
   z-index: 1;
 }
 .hire .container {
@@ -1166,7 +1168,8 @@ p {
                      Contact 
 -------------------------------------------------------- */
 .contact {
-  background-image: url(../img/sydney.jpg);
+  background-image: url(../img/abstract.png);
+  /* background-color: black; */
   background-size: cover;
   background-attachment: fixed;
   position: relative;
@@ -1180,7 +1183,7 @@ p {
   bottom: 0;
   right: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.5);
+  /* background: rgba(0, 0, 0, 0.5); */
   z-index: 1;
 }
 .contact .container {
@@ -1306,7 +1309,7 @@ p {
 @media screen and (max-width: 991px) {
   .navbar-default .navbar-nav > li {
     margin: 25px 15px 0;
-    font-size: 13px;
+    font-size: 1.2rem;
   }
 
   .header h1 {
