@@ -582,6 +582,35 @@ p {
   background: #f0f0f0;
 }
 
+.col-full{
+  display: flex;
+  justify-content: center;
+  }
+  
+  .skillContainer {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+  padding-bottom: 9rem;
+  justify-content: center;
+  margin: 0 auto;
+  width: 90%;
+  position: relative;
+  left: 5%;
+  }
+  
+  .skillIconContainer{
+  width: 17%;
+  height: auto;
+  margin: 1.5% 0;
+  }
+  
+  .skillIconContainer img {
+  height: 70px;
+  width: 70px;
+  }
+
 /* -------------------------------------------------------
                      Clients 
 -------------------------------------------------------- */
@@ -1176,7 +1205,7 @@ p {
                      Contact 
 -------------------------------------------------------- */
 .contact {
-  background-image: url(../img/abstract.png);
+  background-image: url(../img/colorpolygon.jpg);
   /* background-color: black; */
   background-size: cover;
   background-attachment: fixed;
@@ -1191,7 +1220,7 @@ p {
   bottom: 0;
   right: 0;
   left: 0;
-  /* background: rgba(0, 0, 0, 0.5); */
+  background: rgba(0, 0, 0, 0.3);
   z-index: 1;
 }
 .contact .container {
