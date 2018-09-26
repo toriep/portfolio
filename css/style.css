@@ -581,37 +581,29 @@ p {
   height: 1px;
   background: #f0f0f0;
 }
+  
+.skillContainer {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+margin-top: 5rem;
+padding-bottom: 9rem;
+margin: 0 auto;
+}
 
-.col-full{
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  flex-wrap: wrap;
-  }
-  
-  .skillContainer {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin-top: 5rem;
-  padding-bottom: 9rem;
-  margin: 0 auto;
-  width: 90%;
-  }
-  
-  .skillIconContainer{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 17%;
-  height: auto;
-  margin: 1.5% 0;
-  }
-  
-  .skillIconContainer img {
-  height: 70px;
-  width: 70px;
-  }
+.skillIconContainer{
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 17%;
+height: auto;
+margin: 1.5% 0;
+}
+
+.skillIconContainer img {
+height: 70px;
+width: 70px;
+}
 
 /* -------------------------------------------------------
                      Clients 
