@@ -241,7 +241,7 @@ p {
   height: 100vh;
   width: 100%;
   position: relative;
-  background-image: url(../img/bg2.jpg);
+  background-image: url(../img/geometric.jpg);
   background-attachment: fixed;
   background-size: cover;
 }
@@ -603,6 +603,7 @@ margin: 1.5% 0;
 .skillIconContainer img {
 height: 70px;
 width: 70px;
+margin: 0.5em;
 }
 
 /* -------------------------------------------------------
